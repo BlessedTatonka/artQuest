@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FuturaPT-Medium.ttf">
+            <string>FuturaPT-Medium</string>
+        </array>
+        <array key="Futurabookc.otf">
+            <string>FuturaBookC</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FancyAlertView" customModule="iosProject" customModuleProvider="target">
+            <connections>
+                <outlet property="alertView" destination="HsB-NV-EBP" id="hBy-yw-DKN"/>
+                <outlet property="parentView" destination="iN0-l3-epB" id="QSx-V7-CSt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KP5-zG-35w">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HsB-NV-EBP">
+                            <rect key="frame" x="27.5" y="278.5" width="320" height="110"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Использовать подсказку?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2j1-y7-WLG">
+                                    <rect key="frame" x="64" y="8" width="192" height="24"/>
+                                    <fontDescription key="fontDescription" name="FuturaPT-Medium" family="Futura PT" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lvk-3o-H25" customClass="FancyButton" customModule="iosProject" customModuleProvider="target">
+                                    <rect key="frame" x="18" y="39" width="136" height="46"/>
+                                    <color key="backgroundColor" red="0.10588235294117647" green="0.10588235294117647" blue="0.14509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="46" id="1w6-xt-EUG"/>
+                                        <constraint firstAttribute="width" constant="136" id="YmC-p5-1Jg"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="FuturaBookC" family="FuturaBookC" pointSize="14"/>
+                                    <state key="normal" title="Да">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="23"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="yes:" destination="-1" eventType="touchUpInside" id="Prj-p3-6G2"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzM-R5-A1L" customClass="FancyButton" customModule="iosProject" customModuleProvider="target">
+                                    <rect key="frame" x="165" y="39" width="136" height="46"/>
+                                    <color key="backgroundColor" red="0.10588235294117647" green="0.10588235294117647" blue="0.14509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="136" id="7up-gF-pjU"/>
+                                        <constraint firstAttribute="height" constant="46" id="9hk-cI-cEa"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="FuturaBookC" family="FuturaBookC" pointSize="14"/>
+                                    <state key="normal" title="Нет">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="23"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="no:" destination="-1" eventType="touchUpInside" id="zZh-iQ-ein"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="nzM-R5-A1L" firstAttribute="top" secondItem="Lvk-3o-H25" secondAttribute="top" id="1al-Je-KIf"/>
+                                <constraint firstItem="nzM-R5-A1L" firstAttribute="centerY" secondItem="Lvk-3o-H25" secondAttribute="centerY" id="6QY-OD-Bkk"/>
+                                <constraint firstItem="2j1-y7-WLG" firstAttribute="leading" secondItem="HsB-NV-EBP" secondAttribute="leading" constant="64" id="D9I-nP-UVw"/>
+                                <constraint firstItem="2j1-y7-WLG" firstAttribute="top" secondItem="HsB-NV-EBP" secondAttribute="top" constant="8" id="MJ9-kM-4Vq"/>
+                                <constraint firstItem="nzM-R5-A1L" firstAttribute="leading" secondItem="Lvk-3o-H25" secondAttribute="trailing" constant="11" id="WJX-Hr-ZJM"/>
+                                <constraint firstItem="Lvk-3o-H25" firstAttribute="top" secondItem="2j1-y7-WLG" secondAttribute="bottom" constant="7" id="b7B-vr-o8z"/>
+                                <constraint firstItem="Lvk-3o-H25" firstAttribute="leading" secondItem="HsB-NV-EBP" secondAttribute="leading" constant="18" id="bMq-Sp-kyP"/>
+                                <constraint firstAttribute="height" constant="110" id="ken-N1-jFj"/>
+                                <constraint firstAttribute="trailing" secondItem="2j1-y7-WLG" secondAttribute="trailing" constant="64" id="o05-2p-223"/>
+                                <constraint firstAttribute="width" constant="320" id="zUw-RL-6Ym"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.82344285102739723" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="HsB-NV-EBP" firstAttribute="centerY" secondItem="KP5-zG-35w" secondAttribute="centerY" id="1Xw-t4-0pI"/>
+                        <constraint firstItem="HsB-NV-EBP" firstAttribute="centerX" secondItem="KP5-zG-35w" secondAttribute="centerX" id="TS7-Ww-kEd"/>
+                        <constraint firstItem="HsB-NV-EBP" firstAttribute="centerY" secondItem="KP5-zG-35w" secondAttribute="centerY" id="mK2-Ib-b17"/>
+                        <constraint firstItem="HsB-NV-EBP" firstAttribute="centerX" secondItem="KP5-zG-35w" secondAttribute="centerX" id="o70-yX-elO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KP5-zG-35w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="7Jp-Iv-pMk"/>
+                <constraint firstItem="KP5-zG-35w" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="MGI-71-riw"/>
+                <constraint firstItem="KP5-zG-35w" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="X5w-v7-o2F"/>
+                <constraint firstItem="KP5-zG-35w" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="eas-1x-Bgm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-111.2" y="-201.94902548725639"/>
+        </view>
+    </objects>
+</document>

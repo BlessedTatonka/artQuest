@@ -1,0 +1,32 @@
+=============================--Пояснение--=======================================
+______________________________________________
+Login               | Registration:           |
+		    |		имя:          |
+	email:      |		email:        |
+	пароль:     |		пароль:       |
+		    |	                      |
+    Забыли пароль?  |	Уже зарегистрированы? |
+____________________|_________________________|
+		    ^
+	            |
+Стандартные страницы входа и регистрации.
+На сервер отправляется email и пароль, на выход возвращается информация (личный кабинет, аватарка) в формате JSON
+
+============================--Ссылки--===========================================
+Огромная статья содержит почти всю нужную информацию (про андроид, как я понял):
+http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/
+
+Ссылка на гитхаб с реализацией:
+https://github.com/kafwihi/Characteristics
+
+Про XCode:
+https://www.back4app.com/docs/ios/xcode-user-register-and-login-tutorial
+
+Чуть больше кода про Xcode:
+https://medium.com/@ashikabala01/how-to-build-login-and-sign-up-functionality-for-your-ios-app-using-firebase-within-15-mins-df4731faf2f7
+
+Чуть больше кода про Android Studio:
+https://medium.com/muhamadjalaludin/how-to-create-user-interface-login-register-with-android-studio-34da847b05b2
+
+Возможно пригодится:
+https://ru.stackoverflow.com/questions/504767/%D0%9A%D0%B0%D0%BA-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%B8%D1%82%D1%8C-%D1%87%D1%82%D0%BE-%D1%8E%D0%B7%D0%B5%D1%80-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8%D0%BD%D0%B8%D0%BB%D1%81%D1%8F/504815#504815

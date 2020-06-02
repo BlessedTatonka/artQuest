@@ -1,0 +1,33 @@
+\babel@toc {nil}{}
+\thispagestyle {fancy}
+\contentsline {section}{\numberline {1}ВВЕДЕНИЕ}{3}% 
+\contentsline {subsection}{\numberline {1.1}Наименование программы}{3}% 
+\contentsline {subsubsection}{\numberline {1.1.1}Наименование программы на русском языке}{3}% 
+\contentsline {subsubsection}{\numberline {1.1.2}Наименование программы на английском языке}{3}% 
+\contentsline {subsection}{\numberline {1.2}Краткая характеристика области применения программы}{3}% 
+\contentsline {section}{\numberline {2}ОСНОВАНИЯ ДЛЯ РАЗРАБОТКИ}{4}% 
+\contentsline {subsection}{\numberline {2.1}Документы, на основании которых ведется разработка}{4}% 
+\contentsline {subsection}{\numberline {2.2}Наименование темы разработки}{4}% 
+\contentsline {section}{\numberline {3}НАЗНАЧЕНИЕ РАЗРАБОТКИ}{5}% 
+\contentsline {subsection}{\numberline {3.1}Функциональное назначение}{5}% 
+\contentsline {subsection}{\numberline {3.2}Эксплуатационное назначение}{5}% 
+\contentsline {section}{\numberline {4}ТРЕБОВАНИЯ К ПРОГРАММЕ}{6}% 
+\contentsline {subsection}{\numberline {4.1}Требования к функциональным характеристикам}{6}% 
+\contentsline {subsubsection}{\numberline {4.1.1}Требования к составу выполняемых функций}{6}% 
+\contentsline {section}{\numberline {5}ТРЕБОВАНИЯ К ПРОГРАММНОЙ ДОКУМЕНТАЦИИ}{10}% 
+\contentsline {subsection}{\numberline {5.1}Предварительный состав программной документации}{10}% 
+\contentsline {subsection}{\numberline {5.2}Специальные требования к программной документации}{10}% 
+\contentsline {section}{\numberline {6}ТЕХНИКО-ЭКОНОМИЧЕСКИЕ ПОКАЗАТЕЛИ}{11}% 
+\contentsline {subsection}{\numberline {6.1}Предполагаемая потребность}{11}% 
+\contentsline {subsection}{\numberline {6.2}Ориентировочная экономическая эффективность}{11}% 
+\contentsline {section}{\numberline {7}СТАДИИ И ЭТАПЫ РАЗРАБОТКИ}{13}% 
+\contentsline {subsection}{\numberline {7.1}Необходимые стадии разработки, этапы и содержание работ}{13}% 
+\contentsline {subsection}{\numberline {7.2}Сроки и исполнители}{14}% 
+\contentsline {section}{\numberline {8}ПОРЯДОК КОНТРОЛЯ И ПРИЕМКИ}{15}% 
+\contentsline {subsection}{\numberline {8.1}Виды испытаний}{15}% 
+\contentsline {subsection}{\numberline {8.2}Общие требования к приемке работы}{15}% 
+\contentsline {section}{\numberline {9}ПРИЛОЖЕНИЕ}{16}% 
+\contentsline {subsection}{\numberline {9.1}Иллюстрации интерфейса}{16}% 
+\contentsline {subsection}{\numberline {9.2}Статус требований}{17}% 
+\contentsline {subsection}{\numberline {9.3}SWOT-анализ}{18}% 
+\contentsline {subsection}{\numberline {9.4}Список источников}{19}% 

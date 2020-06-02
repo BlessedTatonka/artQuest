@@ -1,0 +1,33 @@
+% Добавляем гипертекстовое оглавление в PDF
+\usepackage[
+bookmarks=true, colorlinks=true, unicode=true,
+urlcolor=black,linkcolor=black, anchorcolor=black,
+citecolor=black, menucolor=black, filecolor=black,
+]{hyperref}
+
+% Изменение начертания шрифта --- после чего выглядит таймсоподобно.
+% apt-get install scalable-cyrfonts-tex
+
+\usepackage{graphicx}   % Пакет для включения рисунков
+\DeclareGraphicsExtensions{.jpg,.pdf,.png}
+% С такими оно полями оно работает по-умолчанию:
+ \RequirePackage[left=20mm,right=10mm,top=20mm,bottom=20mm,headsep=0pt]{geometry}
+% Если вас тошнит от поля в 10мм --- увеличивайте до 20-ти, ну и про переплёт не забывайте:
+\geometry{right=20mm}
+\geometry{left=15mm}
+
+
+
+% Произвольная нумерация списков.
+
+\usepackage{enumerate}
+
+\setcounter{tocdepth}{1} 
+
+\linespread{1}
+\usepackage{rotating}
+\usepackage{afterpage}
+
+%\usepackage{fancyhdr}
+%\fancyhead[C]{\thepage\\RU.\#\# ТЗ 01-1-ЛУ}
+%\renewcommand{\headrulewidth}{0pt}

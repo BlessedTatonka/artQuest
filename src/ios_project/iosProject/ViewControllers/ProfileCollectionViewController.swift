@@ -12,7 +12,7 @@ import Parse
 class ProfileCollectionViewController: UICollectionViewController {
     @IBOutlet var collection: UICollectionView!
     var headerView = ProfileHeaderCollectionReusableView()
-    var user = currentUser
+    var user : User? = currentUser
     //var header = ProfileHeaderCollectionReusableView()
     fileprivate var data : Array<QuestData> = []
     
@@ -32,7 +32,11 @@ class ProfileCollectionViewController: UICollectionViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         //initData()
-        questLogic.initListForUser(user: user)
+        if (user == nil) {
+            user = currentUser
+        }
+        
+        questLogic.initListForUser(user: user!)
         data = []
         for quest in profileList {
             data.append(quest)
@@ -40,7 +44,11 @@ class ProfileCollectionViewController: UICollectionViewController {
         headerView.initData()
         
         self.collection.reloadData()
-//        self.reloadInputViews()
+        self.reloadInputViews()
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        user = nil
     }
     
 }
